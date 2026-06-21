@@ -6,7 +6,34 @@ This document provides a high-level overview of the architecture for the **AI Si
 
 ## 1. System Architecture Diagram
 
-
+Frontend (React + Zustand)
+│
+├── Algorithm Selection
+├── Hyperparameter Config
+├── Dataset Generator / Upload
+├── Simulation Canvas (Decision Boundary / Feature Maps)
+├── Metrics Charts
+│
+▼
+Backend API (FastAPI)
+│
+├── /algorithms
+├── /dataset
+├── /model
+├── /simulation
+│
+▼
+Simulation Engine
+│
+├── Training Loop
+├── Metrics Generator
+├── Decision Boundary Generator
+├── Feature Map Generator
+│
+▼
+WebSocket Stream
+│
+└── Real-time updates → Frontend
 ---
 
 ## 2. Frontend Architecture
