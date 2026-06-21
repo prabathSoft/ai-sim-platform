@@ -1,14 +1,47 @@
-body {
+/* Reset */
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Typography */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
+
+/* Layout wrapper */
 .app-layout {
   display: flex;
+  height: calc(100vh - 60px); /* minus TopNav height */
 }
 
+/* Main content area */
 .main-content {
-  padding: 20px;
   flex: 1;
+  padding: 24px;
+  overflow-y: auto;
 }
 
+/* Headings */
+h1 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Utility spacing */
+.mb-20 {
+  margin-bottom: 20px;
+}
