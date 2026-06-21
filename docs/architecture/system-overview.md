@@ -1,4 +1,8 @@
-# System Overview
+# 🧠 AI Simulation Platform — System Overview
 
-High-level architecture of the AI Simulation Platform.
+This document provides a high-level overview of the architecture for the **AI Simulation Platform**, including the frontend, backend, simulation engine, and WebSocket streaming layer.
+
+---
+
+## 1. System Architecture Diagram
 
